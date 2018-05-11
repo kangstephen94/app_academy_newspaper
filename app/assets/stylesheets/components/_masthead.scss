@@ -7,18 +7,26 @@
 }
 
 .language-nav {
-	position: sticky;
-	top: -15px;
+	position: relative;
+	// top: -15px;
 	left: calc(50% - (177.78px/2));
 	background: white;
+  width: 180px;
+  height:9px;
 	border: 1px solid $light-gray;
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
+.language-nav ul {
+  // border-bottom: 0px solid white;
+}
 
 .language-nav ul li:first-child a {
     font-weight: bold;
+}
+.logo-div {
+  // width: 100%;
 }
 
 .language-nav a {
@@ -38,7 +46,8 @@
 
 .logo {
 	max-width: 400px;
-	margin-top: 10px;
+
+	// margin-top: 10px;
 }
 
 .masthead-links {
@@ -52,7 +61,6 @@
 .masthead-links li {
 	margin-left: 10px;
 }
-
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -77,4 +85,9 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.bottom-border {
+  width: 100%;
+  border-bottom: 1px solid $light-gray;
 }
